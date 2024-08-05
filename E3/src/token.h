@@ -1,13 +1,27 @@
 /* token.h */
 
 typedef enum {
-        ID = 256, 
-	NUM, 
-        KEY,
-        SYM,  
-        SYMC, 
-        CHAR,
-	STR,
-	ERROR
+        ID = 256,
+        NUM,
+        ARRAY,
+        BOOL,
+	CHAR,
+        ELSE,
+        FALSE,
+        FOR,
+        FUNC,
+        IF,
+        INT,
+        PRINT,
+        RETRN,
+        STR,
+        TRUE,
+        VOID,
+        WHILE,
+        LEQ,
+        GEQ,
+        EQ,
+        NEQ,
+        AND,
+        OR,
 } token_t; 
-
