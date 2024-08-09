@@ -5,7 +5,7 @@ typedef enum {
         NUM,
         ARRAY,
         BOOL,
-	CHAR,
+	CHAR_KW,
         ELSE,
         FALSE,
         FOR,
@@ -14,7 +14,7 @@ typedef enum {
         INT,
         PRINT,
         RETRN,
-        STR,
+        STR_KW,
         TRUE,
         VOID,
         WHILE,
@@ -24,4 +24,8 @@ typedef enum {
         NEQ,
         AND,
         OR,
+
+        CHAR,
+        STR,
+        ERROR,
 } token_t; 
